@@ -1,0 +1,10 @@
+# Compiled binaries (no extension)
+# Ignore files that are just numbers without any extension
+# Note: This pattern matches files starting with digits that don't have extensions
+# We use a workaround: ignore all number-prefixed files, then explicitly keep .cpp files
+[0-9]*
+!*.cpp
+
+# Input files
+*.txt
+
