@@ -8,3 +8,11 @@
 # Input files
 *.txt
 
+# Session cookie (contains authentication token)
+.session_cookie
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
